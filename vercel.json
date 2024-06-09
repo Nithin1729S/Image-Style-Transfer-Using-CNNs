@@ -5,8 +5,8 @@
             "src": "./index.py",
             "use": "@vercel/python",
             "config": {
-                "runtime": "python3.12"
-            }
+                "maxLambdaSize": "450mb"
+              }
         }
     ],
     "routes": [
