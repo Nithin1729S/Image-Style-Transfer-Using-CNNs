@@ -2,7 +2,12 @@
 
 A Flask application that implements neural style transfer, allowing users to blend content and style images seamlessly. The application leverages the power of PyTorch for the style transfer algorithm and uses Tailwind CSS for modern, responsive styling. This combination ensures both high-performance image processing and an intuitive, visually appealing user interface.
 
+Link to my Medium Blog : 
 ## Demo Video
+
+
+https://github.com/Nithin1729S/Image-Style-Transfer-Using-CNNs/assets/78496667/9ae61e41-accf-43e1-b851-4b71ba304cb3
+
 
 
 [Watch the Demo Video on YouTube](https://www.youtube.com/watch?v=6c5A9ZEjpB8)
@@ -10,6 +15,16 @@ A Flask application that implements neural style transfer, allowing users to ble
 ## What is Image Style Transfer?
 Image style transfer, also known as Neural Style Transfer, refers to a category of software algorithms that modify digital images or videos to emulate the visual style of another image. Essentially, this technique involves combining two images—a content image and a style reference image (such as a famous artwork)—to produce a new image that maintains the content of the first image but adopts the visual style of the second.
 
+Examples : 
+![NYC-scenederue](https://github.com/Nithin1729S/Image-Style-Transfer-Using-CNNs/assets/78496667/c8180b75-25e6-4954-bd27-82e19a155aab)
+![victoria-memorial-womanwithhat-matisse](https://github.com/Nithin1729S/Image-Style-Transfer-Using-CNNs/assets/78496667/85eb0651-dafa-47c9-8f2a-1ba20d5f4365)
+![boat-womaninpeasantdress](https://github.com/Nithin1729S/Image-Style-Transfer-Using-CNNs/assets/78496667/dbbdd6f1-56fd-49d6-8d3b-01a938121cee)
+
+![girl-brushstrokes](https://github.com/Nithin1729S/Image-Style-Transfer-Using-CNNs/assets/78496667/de4eac43-550a-431f-9c3f-3724d4040447)
+
+![lenna-picasso-seatednude](https://github.com/Nithin1729S/Image-Style-Transfer-Using-CNNs/assets/78496667/fcf20ac5-97ab-4421-8f44-304d1ff60a2b)
+
+![montreal](https://github.com/Nithin1729S/Image-Style-Transfer-Using-CNNs/assets/78496667/cc9ec4ee-1553-45aa-b815-0d2af3c0bb80)
 
 ## Research Paper 
 In this project, we will replicate the style transfer method described in the paper, [Image Style Transfer Using Convolutional Neural Networks, by Gatys](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf) in PyTorch.
@@ -17,6 +32,7 @@ In this project, we will replicate the style transfer method described in the pa
 ## VGG19 Architecture
 For this style transfer project, we utilize the features extracted from the 19-layer VGG Network, which includes a sequence of convolutional and pooling layers, along with several fully-connected layers. The convolutional layers are labeled by their stack and sequence within the stack, such as `Conv_1_1` for the first layer in the first stack, and `Conv_2_1` for the first layer in the second stack. The deepest convolutional layer is `Conv_5_4`.
 
+![Screenshot from 2024-06-10 12-51-05](https://github.com/Nithin1729S/Image-Style-Transfer-Using-CNNs/assets/78496667/06904212-117f-468c-9de0-a302c9b001cc)
 
 
 ## Separating Style and Content
