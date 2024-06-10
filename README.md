@@ -2,7 +2,8 @@
 
 A Flask application that implements neural style transfer, allowing users to blend content and style images seamlessly. The application leverages the power of PyTorch for the style transfer algorithm and uses Tailwind CSS for modern, responsive styling. This combination ensures both high-performance image processing and an intuitive, visually appealing user interface.
 
-[Medium Blog ]([https://www.youtube.com/watch?v=6c5A9ZEjpB8](https://medium.com/@sureshnithin1729/image-style-transfer-using-cnns-8ba3041df359))
+[Medium Blog About the project](https://medium.com/@sureshnithin1729/image-style-transfer-using-cnns-8ba3041df359)
+
 ## Demo Video
 
 
