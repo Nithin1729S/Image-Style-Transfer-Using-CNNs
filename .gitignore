@@ -1,2 +1,5 @@
 .vercel
 .venv
+wandb/
+demo.mp4
+demo1.mp4
