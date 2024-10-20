@@ -4,3 +4,5 @@ wandb/
 demo.mp4
 demo1.mp4
 __pycache__/
+data/__pycache__/
+.venv/
