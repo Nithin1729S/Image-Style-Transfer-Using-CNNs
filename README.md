@@ -137,8 +137,11 @@ You can view the implementation of the project in this kaggle notebook. https://
     ```bash
     pip install -r requirements.txt
     ```
-
-3. Run the project:
+3. Install tkinter
+   ```bash
+   sudo apt-get install python3-tk
+   ```
+4. Run the project:
 
     ```bash
     python wsgi.py
