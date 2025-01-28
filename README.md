@@ -124,7 +124,7 @@ The style loss is calculated similarly but involves iterating through multiple l
 Finally, create the total loss by combining the style and content losses, weighted by the specified alpha and beta values. Print this loss periodically; even if it starts large, it should decrease over iterations. Focus on the appearance of the target image rather than the loss value itself.
 
 ## Kaggle Notebook
-You can view the implementation of the project in this kaggle notebook. https://www.kaggle.com/code/nithin1729s/styletransfer
+You can view the basic implementation of the project in this kaggle notebook. https://www.kaggle.com/code/nithin1729s/styletransfer
 ## Running the Project
 
 1. Set up a virtual environment:
